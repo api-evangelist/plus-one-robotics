@@ -1,8 +1,19 @@
 aid: plus-one-robotics
 name: Plus One Robotics
-description: 'Plus One Robotics is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Plus One Robotics is a San Antonio, Texas warehouse-automation company
+  founded in 2016 by Erik Nieves and Shaun Edwards that builds AI-powered computer-vision
+  software and robotic work cells for parcel handling, depalletizing, palletizing and
+  induction. Its PickOne perception system tells a robot arm how to grasp each item
+  and verifies placement, while Yonder provides supervised autonomy — remote human
+  "Crew Chiefs" who take over when the robot hits an exception. Packaged work cells
+  DepalOne and InductOne wrap that stack in deployable hardware. The company reports
+  more than 1.5 billion lifetime picks across robots fielded in 15 countries, with
+  additional offices in Eindhoven (Netherlands) and Boulder, Colorado. Plus One
+  Robotics publishes no public developer program, API documentation or machine-readable
+  API contract; product integration is handled through its partner channel and a
+  login-gated partner portal.'
 url: https://raw.githubusercontent.com/api-evangelist/plus-one-robotics/refs/heads/main/apis.yml
+image: https://cdn.prod.website-files.com/62992f497b7940e88b2b200d/62ca95fce45b2d1b52a7e252_webclip.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +23,15 @@ created: '2026-08-05'
 modified: '2026-08-05'
 tags:
 - Company
+- Robotics
+- Warehouse Automation
+- Computer Vision
+- Artificial Intelligence
+- Logistics
+- Supply Chain
+- Parcel
+- Depalletizing
+- Palletizing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +40,68 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://forgeglobal.com/plus-one-robotics_stock/
+  url: https://www.plusonerobotics.com/
+- type: Blog
+  url: https://www.plusonerobotics.com/blog
+- type: GitHubOrganization
+  url: https://github.com/plusone-robotics
+- type: Support
+  url: https://www.plusonerobotics.com/contact
+- type: Contact
+  url: https://www.plusonerobotics.com/contact
+- type: Partners
+  url: https://www.plusonerobotics.com/partners
+- type: Careers
+  url: https://www.plusonerobotics.com/careers
+- type: Press
+  url: https://www.plusonerobotics.com/press
+- type: CaseStudies
+  url: https://www.plusonerobotics.com/case-studies
+- type: WhitePapers
+  url: https://www.plusonerobotics.com/white-papers
+- type: Videos
+  url: https://www.plusonerobotics.com/videos
+- type: Investors
+  url: https://www.plusonerobotics.com/investors
+- type: Products
+  url: https://www.plusonerobotics.com/products
+- type: PrivacyPolicy
+  url: https://www.iubenda.com/privacy-policy/62772662
+- type: TermsOfService
+  url: https://www.plusonerobotics.com/terms-of-use
+- type: LinkedIn
+  url: https://www.linkedin.com/company/plusone-robotics/
+- type: Twitter
+  url: https://twitter.com/PlusOneRobotics
+- type: Facebook
+  url: https://www.facebook.com/plusonerobotics
+- type: LLMsTxt
+  url: llms/plus-one-robotics-llms.txt
+- type: DomainSecurity
+  url: security/plus-one-robotics-domain-security.yml
+x-enrichment:
+  date: '2026-08-05'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: Plus One Robotics ships PickOne and Yonder only as software inside its own
+    integrated robot work cells — the 253-URL Webflow sitemap contains no developer,
+    docs or API page, api/docs/developer subdomains do not resolve in DNS, and
+    integration is routed to a HubSpot partner-portal login instead of a public contract.
+  evidence:
+  - url: https://www.plusonerobotics.com/sitemap.xml
+    status: 200
+  - url: https://www.plusonerobotics.com/openapi.json
+    status: 404
+  - url: https://www.plusonerobotics.com/llms.txt
+    status: 404
+  - url: https://www.plusonerobotics.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.plusonerobotics.com/.well-known/security.txt
+    status: 404
+  - url: https://info.plusonerobotics.com/partner-portal
+    status: 200
+  checked: '2026-08-05'
