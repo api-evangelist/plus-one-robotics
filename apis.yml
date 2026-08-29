@@ -13,6 +13,17 @@ description: 'Plus One Robotics is a San Antonio, Texas warehouse-automation com
   API contract; product integration is handled through its partner channel and a
   login-gated partner portal.'
 url: https://raw.githubusercontent.com/api-evangelist/plus-one-robotics/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/62992f497b7940e88b2b200d/62ca95fce45b2d1b52a7e252_webclip.png
 x-type: company
 x-source: harvest:secondary-market
